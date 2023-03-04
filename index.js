@@ -1,6 +1,9 @@
 import PromptSync from "prompt-sync"
+import chalk from "chalk"
+
 
 const prompt = PromptSync()
+console.log(chalk.bgWhite.red("Colorido"))
 
 /* const nome = prompt("Digite seu Nome: ")
 
