@@ -20,7 +20,7 @@ else{
     console.log("OK")
 } */
 
-const salario = Number(prompt("Dgite salario: "))
+/* const salario = Number(prompt("Dgite salario: "))
 const aumento = Number(prompt("Digite o aumento: ")) 
 
 const novoSalario = salario * (1 + (aumento/100))
@@ -38,4 +38,17 @@ if(idade >= 18){
     console.log("Pai vai Pilotar")
 }else{
     console.log("Só em cardeal")
+} */
+
+let numero = 1
+let cont =0
+let soma =0
+
+for(cont; numero != 0; cont++){
+
+    numero = Number(prompt(chalk.bgGray(`digite o ${cont+1}° numero ou 0 para terminar: `)))
+
+    soma += numero
 }
+cont-=1
+console.log(chalk.bgGray(`Média ${soma/cont}`))
