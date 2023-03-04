@@ -18,7 +18,7 @@ else{
 } */
 
 const salario = Number(prompt("Dgite salario: "))
-const aumento = Number(prompt("Digite o aumento: "))
+const aumento = Number(prompt("Digite o aumento: ")) 
 
 const novoSalario = salario * (1 + (aumento/100))
 
